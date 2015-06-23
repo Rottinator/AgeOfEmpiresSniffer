@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AgeOfEmpiresSniffer", "AgeOfEmpiresSniffer\AgeOfEmpiresSniffer.vcxproj", "{BFD4092B-3858-405C-BF1A-28D91C0D2204}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapExtractor", "MapExtractor\MapExtractor.vcxproj", "{17430C8A-C774-4F17-9DC8-7DECAF47E022}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScenarioExtractor", "ScenarioExtractor\ScenarioExtractor.vcxproj", "{1B94410A-5ED6-42CC-B85A-33188AA76B15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Debug|Win32.Build.0 = Debug|Win32
+		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Release|Win32.ActiveCfg = Release|Win32
+		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Release|Win32.Build.0 = Release|Win32
+		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Debug|Win32.Build.0 = Debug|Win32
+		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Release|Win32.ActiveCfg = Release|Win32
+		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Release|Win32.Build.0 = Release|Win32
+		{1B94410A-5ED6-42CC-B85A-33188AA76B15}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1B94410A-5ED6-42CC-B85A-33188AA76B15}.Debug|Win32.Build.0 = Debug|Win32
+		{1B94410A-5ED6-42CC-B85A-33188AA76B15}.Release|Win32.ActiveCfg = Release|Win32
+		{1B94410A-5ED6-42CC-B85A-33188AA76B15}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

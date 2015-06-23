@@ -1,0 +1,1 @@
+bool Extract(char* inputPath, char* outputPath);
