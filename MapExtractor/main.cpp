@@ -5,8 +5,9 @@
 #include "extractor.h"
 #include "parser.h"
 
-#define INPUT_PATH "C:\\Program Files (x86)\\Steam\\SteamApps\\common\\Age2HD\\savegame\\recorded game -  09-Jun-2015 13`30`46.mgx2"
-#define OUTPUT_PATH "D:\\output\\aoe2maps\\steppe2.map"
+#define INPUT_PATH "D:\\Steam\\SteamApps\\common\\Age2HD\\savegame\\ES Wiederholung v4.1 @2015.06.25 211733.mgx2"
+
+#define OUTPUT_PATH "D:\\Temp\\scenario_empty.map"
 
 int main() 
 {
@@ -18,14 +19,14 @@ int main()
 		return 0;
 	}
 
-	char path1[255] = "D:\\output\\aoe2maps\\1.map";
+	/*char path1[255] = "D:\\output\\aoe2maps\\1.map";
 	char path2[255] = "D:\\output\\aoe2maps\\steppe2.map";
 
 	printf("\nFile 1:\n\n");
 	Parse(path1);
 
 	printf("\nFile 2:\n\n");
-	Parse(path2);
+	Parse(path2);*/
 
 	system("Pause");
 
