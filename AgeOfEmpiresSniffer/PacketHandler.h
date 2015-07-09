@@ -15,9 +15,9 @@ public:
 		_actionHandler = new ActionHandler(reader);
 	}
 
-	void HandlePacket(int actionId)
+	void HandlePacket(int packetId)
 	{
-		switch (actionId)
+		switch (packetId)
 		{
 		case 1:
 			_actionHandler->ReadAndHandleAction();
@@ -29,7 +29,7 @@ public:
 			HandleStartCommand();
 			break;
 		default:
-			printf("Unknown action %d\n", actionId);
+			printf("Unknown packet %d\n", packetId);
 			break;
 		}
 	}
@@ -53,8 +53,8 @@ private:
 
 	void HandleStartCommand()
 	{
-		printf("Start Command\n");
 		int pos = _reader->GetPosition();
+		printf("Start Command\n");
 		_reader->SetPosition(pos + (6 * 4));
 	}
 };
