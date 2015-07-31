@@ -1,6 +1,8 @@
 #include <cstdio>
 
-#include "../../Base.h/Base.h/compression/compression.h"
+#include "../../Base.h/Base/base.h"
+
+using namespace Base::Compression;
 
 bool Extract(char* inputPath, char* outputPath)
 {
@@ -22,12 +24,12 @@ bool Extract(char* inputPath, char* outputPath)
 	fclose(inFile);
 	fclose(outFile);
 
-	if(result == INFLATE_SUCCESS)
+	if (result == INFLATE_SUCCESS)
 	{
 		printf("Datei erfolgreich dekomprimiert\n");
 		return true;
 	}
-	else if(result == INFLATE_ERROR)
+	else if (result == INFLATE_ERROR)
 	{
 		printf("Fehler beim Dekomprimieren der Datei\n");
 		return false;

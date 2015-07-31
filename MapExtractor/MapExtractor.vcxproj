@@ -64,12 +64,16 @@
   <ItemGroup>
     <ClCompile Include="extractor.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="miniz.c" />
     <ClCompile Include="parser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="extractor.h" />
     <ClInclude Include="parser.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base.h\Base\Base.vcxproj">
+      <Project>{4df43032-c56c-46aa-86ac-60131da7f9c6}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

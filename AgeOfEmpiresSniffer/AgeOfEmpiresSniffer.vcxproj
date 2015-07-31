@@ -62,12 +62,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ActionHandler.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PacketHandler.cpp" />
+    <ClCompile Include="RecordReader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ActionHandler.h" />
     <ClInclude Include="PacketHandler.h" />
     <ClInclude Include="RecordReader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base.h\Base\Base.vcxproj">
+      <Project>{4df43032-c56c-46aa-86ac-60131da7f9c6}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
