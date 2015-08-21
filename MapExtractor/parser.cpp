@@ -88,7 +88,6 @@ void ReadMap(BinaryReader reader)
 	printf("Position after jump: %d\n", reader.GetPosition());
 }
 
-
 int GetGameSettingsPos(BinaryReader reader)
 {
 	int sequenceSize = sizeof(GAME_SETTINGS_SEQUENCE);

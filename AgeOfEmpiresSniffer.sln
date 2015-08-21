@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AgeOfEmpiresSniffer", "AgeOfEmpiresSniffer\AgeOfEmpiresSniffer.vcxproj", "{BFD4092B-3858-405C-BF1A-28D91C0D2204}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReplayAnalyzer", "ReplayAnalyzer\ReplayAnalyzer.vcxproj", "{BFD4092B-3858-405C-BF1A-28D91C0D2204}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapExtractor", "MapExtractor\MapExtractor.vcxproj", "{17430C8A-C774-4F17-9DC8-7DECAF47E022}"
 EndProject
