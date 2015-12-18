@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReplayAnalyzer", "ReplayAnalyzer\ReplayAnalyzer.vcxproj", "{BFD4092B-3858-405C-BF1A-28D91C0D2204}"
 EndProject
@@ -11,24 +11,42 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Base", "..\Base.h\Base\Base
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base.h", "Base.h", "{052D6821-4B1C-46E5-8DCE-35287D3BE777}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shared", "Shared\Shared.vcxproj", "{7F1B2C72-B675-4174-9B82-591960A657FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Debug|Win32.ActiveCfg = Debug|Win32
 		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Debug|Win32.Build.0 = Debug|Win32
+		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Debug|x64.ActiveCfg = Debug|Win32
 		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Release|Win32.ActiveCfg = Release|Win32
 		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Release|Win32.Build.0 = Release|Win32
+		{BFD4092B-3858-405C-BF1A-28D91C0D2204}.Release|x64.ActiveCfg = Release|Win32
 		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Debug|Win32.ActiveCfg = Debug|Win32
 		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Debug|Win32.Build.0 = Debug|Win32
+		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Debug|x64.ActiveCfg = Debug|Win32
 		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Release|Win32.ActiveCfg = Release|Win32
 		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Release|Win32.Build.0 = Release|Win32
+		{17430C8A-C774-4F17-9DC8-7DECAF47E022}.Release|x64.ActiveCfg = Release|Win32
 		{4DF43032-C56C-46AA-86AC-60131DA7F9C6}.Debug|Win32.ActiveCfg = Debug|Win32
 		{4DF43032-C56C-46AA-86AC-60131DA7F9C6}.Debug|Win32.Build.0 = Debug|Win32
+		{4DF43032-C56C-46AA-86AC-60131DA7F9C6}.Debug|x64.ActiveCfg = Debug|Win32
 		{4DF43032-C56C-46AA-86AC-60131DA7F9C6}.Release|Win32.ActiveCfg = Release|Win32
 		{4DF43032-C56C-46AA-86AC-60131DA7F9C6}.Release|Win32.Build.0 = Release|Win32
+		{4DF43032-C56C-46AA-86AC-60131DA7F9C6}.Release|x64.ActiveCfg = Release|Win32
+		{7F1B2C72-B675-4174-9B82-591960A657FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F1B2C72-B675-4174-9B82-591960A657FC}.Debug|Win32.Build.0 = Debug|Win32
+		{7F1B2C72-B675-4174-9B82-591960A657FC}.Debug|x64.ActiveCfg = Debug|x64
+		{7F1B2C72-B675-4174-9B82-591960A657FC}.Debug|x64.Build.0 = Debug|x64
+		{7F1B2C72-B675-4174-9B82-591960A657FC}.Release|Win32.ActiveCfg = Release|Win32
+		{7F1B2C72-B675-4174-9B82-591960A657FC}.Release|Win32.Build.0 = Release|Win32
+		{7F1B2C72-B675-4174-9B82-591960A657FC}.Release|x64.ActiveCfg = Release|x64
+		{7F1B2C72-B675-4174-9B82-591960A657FC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

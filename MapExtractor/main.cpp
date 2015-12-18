@@ -5,33 +5,29 @@
 #include "extractor.h"
 #include "parser.h"
 
-#define INPUT_PATH "D:\\Steam\\SteamApps\\common\\Age2HD\\savegame\\MP Replay v4.2 @2015.07.23 194624 (1).msx2"
+//#define INPUT_PATH "D:\\SteamLibrary\\SteamApps\\common\\Age2HD\\savegame\\MP Replay v4.3 @2015.09.14 210940 (1).msx2"
+#define INPUT_PATH "D:\\SteamLibrary\\SteamApps\\common\\Age2HD\\savegame\\MP Replay v4.3 @2015.10.20 212838 (1).msx2"
 //#define INPUT_PATH "D:\\Steam\\SteamApps\\common\\Age2HD\\savegame\\MP Replay v4.2 @2015.07.09 212519 (1).msx2"
 
-#define OUTPUT_PATH "D:\\Temp\\4playerv2.map"
+#define OUTPUT_PATH "C:\\Temp\\multi3.map"
 
-int main() 
+using namespace AgeOfEmpiresSniffer::MapExtractor;
+
+int main()
 {
-	bool extractionResult = Extract(INPUT_PATH, OUTPUT_PATH);
+	Extractor extractor;
+	bool extractionResult = extractor.Extract(INPUT_PATH, OUTPUT_PATH);
 
-	if(extractionResult == false)
+	if (extractionResult == false)
 	{
 		system("Pause");
 		return 0;
 	}
 	else
 	{
-		Parse(OUTPUT_PATH);
+		Parser parser;
+		parser.Parse(OUTPUT_PATH);
 	}
-
-	/*char path1[255] = "D:\\output\\aoe2maps\\1.map";
-	char path2[255] = "D:\\output\\aoe2maps\\steppe2.map";
-
-	printf("\nFile 1:\n\n");
-	Parse(path1);
-
-	printf("\nFile 2:\n\n");
-	Parse(path2);*/
 
 	system("Pause");
 
